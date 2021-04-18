@@ -1,15 +1,32 @@
 .navbar {
-    padding: 20px;
+    padding: 15px 90px;
     display: flex;
     align-items: center;
     margin: 0;
     background-color: #5F2EEA;
 }
 
-.navbar .links {
-    color: ;
+.navbar .Logo{
+    margin-right: 25px;
 }
 
 .navbar .search {
     margin-left: auto;
+    margin-right: 25px;
+    padding: 0px 15px;
+    background-color: #EFF0F6;
+    border-radius: 8px;
+}
+
+.navbar .search i {
+    margin-right: 10px;
+}
+
+.navbar .search input{
+    height: 30px;
+    background-color: #EFF0F6 !important;
+    border-style: none;
+    font-family: Poppins;
+    color: #A0A3BD;
+
 }
