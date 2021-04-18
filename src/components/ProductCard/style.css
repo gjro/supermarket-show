@@ -1,0 +1,9 @@
+.ProductCard {
+   display: flex;
+   filter:drop-shadow(0px 32px 64px rgba(0, 0, 0, 0.25));
+   max-width: 209px;
+}
+
+.ProductImage {
+
+}
