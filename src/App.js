@@ -67,7 +67,7 @@ function App() {
       setProducts(newProducts);
     }
   }
-
+//Configurando o Vercel
   return (
     <>
       <div className="App">
@@ -82,7 +82,12 @@ function App() {
         </div>
           <Footer/>
       </div>
-        {showLateralBar && <LateralBar closeModal={()=> {setShowLateralBar(false)}} products={products}/>}
+        {showLateralBar && <LateralBar 
+          closeModal={()=> {setShowLateralBar(false)}} 
+          products={products}
+          handleIncreaseProductAmount={handleIncreaseProductAmount}
+          handleDecreaseProductAmount={handleDecreaseProductAmount}
+            />}
         <ToastContainer position='top-center' autoClose={3000}/>
     </>
   );
