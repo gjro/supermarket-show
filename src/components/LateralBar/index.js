@@ -1,18 +1,19 @@
-import React , { useState, useEffect } from 'react' ;  
+import React from 'react' ;  
+import './style.css'
 
-
-export default function LateralBar () {
-    const [show, setShow] = useState(false);
-
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
-
-    if(show){
-        return(
-            
-        <div className="LateralBar">
-            <h1>Hello Modal</h1>
+export default function LateralBar ({closeModal, products}) {
+    return(
+        
+    <div className="LateralBar">
+        <div onClick={closeModal} className="CloseArea"/>
+        <div className="Cart">
+            <h1>Hello World</h1>
+            {products.map( product => (
+                <>
+                    {product.amount>0 && (<p>{product.description}</p>)}
+                </>
+            ))}
         </div>
-        ) 
-    }
+    </div>      
+    ) 
 }

@@ -1,1 +1,24 @@
 
+.LateralBar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color:rgba(0,0,0, 0.35);
+}
+
+.Cart {
+    right: 0;
+    background-color: aliceblue;
+    position: absolute;
+    width: 30vw;
+    height: 100vh;
+}
+
+.CloseArea {
+    left: 0;
+    position: absolute;
+    width: 70vw;
+    height: 100vh;
+}

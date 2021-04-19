@@ -1,4 +1,4 @@
-import { Icon, InlineIcon } from '@iconify/react';
+import { Icon } from '@iconify/react';
 import starIcon from '@iconify/icons-akar-icons/star'
 import './style.css'
 

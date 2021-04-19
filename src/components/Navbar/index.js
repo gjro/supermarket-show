@@ -1,9 +1,8 @@
 import './style.css'
 import logo from '../../assets/images/logo.png'
 import CartIcon from '../../assets/icons/Cart.png';
-import LateralBar from '../LateralBar'
 
-const navBar = () => {
+const navBar = ({openModal}) => {
     return ( 
         <nav className="navbar">
             <img className="Logo" src= {logo} alt="logo"/>
@@ -14,7 +13,7 @@ const navBar = () => {
                 </span>
                 <input type="text" placeholder="Pesquisar produtos"/>
             </div>
-            <a ><img onClick={LateralBar} src={CartIcon} alt="Cart Icon"/></a>
+            <img style={{cursor: 'pointer'}} onClick={openModal} src={CartIcon} alt="Cart Icon"/>
         </nav>
      );
 }
