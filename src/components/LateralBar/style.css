@@ -10,15 +10,121 @@
 
 .Cart {
     right: 0;
-    background-color: aliceblue;
+    background-color: #FFFFFF;
     position: absolute;
     width: 30vw;
-    height: 100vh;
+    height: 100%;
 }
 
 .CloseArea {
     left: 0;
     position: absolute;
     width: 70vw;
-    height: 100vh;
+    height: 100%;
+}
+
+.CartHeader h1{
+    text-align: center;
+    padding: 30px 0;
+    margin: 0px;
+    background-color: #5F2EEA;
+    color: #EFF0F6;
+}
+
+.LateralBar .ProductCard {
+    display: flex;
+    margin: 25px 15px;
+    filter:drop-shadow(0px 32px 64px rgba(0, 0, 0, 0.25));
+    height: 150px;
+    width: auto;
+    background-color: #FFFFFF;
+    border-radius: 32px;
+ }
+ 
+ .LateralBar .ProductImage {
+    width: auto;
+    background-color: #5F2EEA;
+    padding-top: 15px;
+    border-radius: 32px 0px 0px 32px;
+ }
+ 
+ 
+ .LateralBar .ProductInfos {
+    padding: 0 10px;
+    
+ }
+
+ 
+.LateralBar .AddCart {
+    display: -webkit-inline-box;
+    margin: 15px 0;
+    justify-content: space-evenly;
+ }
+ 
+ .LateralBar .AddCart button {
+    margin: 0px 10px;
+    font-size: 28px;
+    height: 32px;
+    width: 32px;
+    border-radius: 22px;
+    border-style: none;
+    background-color: #EFF0F6;
+ }
+ 
+ .AddCart p {
+    align-self: center;
+    font-size: 18px;
+    font-family: Poppins;
+ }
+ 
+ .LateralBar .BuyXtakeY {
+    position: absolute;
+    bottom: -100px;
+    width: 100px;
+    margin-left: 8px;
+    background-color: #75E6FF;
+    color: #00718A;
+ }
+ 
+ .EndCart {
+    padding-top: 25px;
+    margin: 25px 15px;
+    filter:drop-shadow(3px 3px 16px rgba(0, 0, 0, 0.25));
+    height: auto;
+    width: auto;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+}
+
+.EndCart p {
+    font-family: Poppins;
+    padding-left: 25px;
+}
+
+.EndCart h1 {
+    padding-left: 25px;
+    margin: 0;
+    color: #000000;
+}
+
+.EndCart .EndButton {
+    justify-content: center;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    background-color: #5F2EEA;
+    border-radius: 0px 0px 16px 16px;
+}
+
+.EndCart .EndButton button {
+    background-color: #5F2EEA;
+    border-style: none;
+    font-family: Poppins;
+    font-size: 18px;
+    color: #EFF0F6;
+    font-weight: 600;
+}
+
+.EndCart .EndButton img {
+    height: 35px;
 }
