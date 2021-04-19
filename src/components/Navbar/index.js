@@ -2,6 +2,7 @@ import './style.css'
 import logo from '../../assets/images/logo.png'
 import CartIcon from '../../assets/icons/Cart.png';
 
+
 const navBar = ({openModal}) => {
     return ( 
         <nav className="navbar">

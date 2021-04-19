@@ -47,7 +47,7 @@ function App() {
       setProducts(newProducts);
     }
     else
-      toast.error('Pode não, fie')
+      toast.error('Atenção! - Quantidade máxima de itens atingido')
   }
 
   function handleDecreaseProductAmount(product){
@@ -83,7 +83,7 @@ function App() {
           <Footer/>
       </div>
         {showLateralBar && <LateralBar closeModal={()=> {setShowLateralBar(false)}} products={products}/>}
-        <ToastContainer autoClose={3000}/>
+        <ToastContainer position='top-center' autoClose={3000}/>
     </>
   );
 }
